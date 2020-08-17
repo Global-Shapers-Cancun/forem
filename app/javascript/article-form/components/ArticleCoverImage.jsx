@@ -59,8 +59,21 @@ export class ArticleCoverImage extends Component {
     const uploadLabel = mainImage ? 'Change' : 'Add a cover image';
 
     return (
-      <div className="crayons-article-form__cover" role="presentation">
-        {!uploadingImage && mainImage && (
+      <div className="crayons-article-form__cover" role="presentation"></div>
+    );
+  }
+}
+
+ArticleCoverImage.propTypes = {
+  mainImage: PropTypes.string.isRequired,
+  onMainImageUrlChange: PropTypes.func.isRequired,
+};
+
+ArticleCoverImage.displayName = 'ArticleCoverImage';
+
+/*
+
+ {!uploadingImage && mainImage && (
           <img
             src={mainImage}
             className="crayons-article-form__cover__image"
@@ -100,15 +113,4 @@ export class ArticleCoverImage extends Component {
         </div>
         {uploadError && (
           <p className="articleform__uploaderror">{uploadErrorMessage}</p>
-        )}
-      </div>
-    );
-  }
-}
-
-ArticleCoverImage.propTypes = {
-  mainImage: PropTypes.string.isRequired,
-  onMainImageUrlChange: PropTypes.func.isRequired,
-};
-
-ArticleCoverImage.displayName = 'ArticleCoverImage';
+        )}*/

@@ -26,8 +26,8 @@ env:
     - APP_DOMAIN=localhost:3000
     - HEROKU_APP_URL=practicaldev.herokuapp.com
     - SECRET_KEY_BASE=dummydummydummy
-    - GITHUB_KEY=dummy
-    - GITHUB_SECRET=dummy
+    - GITHUB_KEY=0a092038f20c208019b3
+    - GITHUB_SECRET=9f722bd9111568e9b6deb84abbcff3a1eeef6820
     - KNAPSACK_PRO_FIXED_QUEUE_SPLIT=true
     - KNAPSACK_PRO_LOG_LEVEL=info
     - KNAPSACK_PRO_CI_NODE_TOTAL=3

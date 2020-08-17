@@ -1,0 +1,15 @@
+2020-08-16 22:37:51.907 EST [85736] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2020-08-16 22:37:51.910 EST [85736] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-16 22:37:51.910 EST [85736] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-16 22:37:51.910 EST [85736] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-08-16 22:37:51.922 EST [85737] LOG:  database system was shut down at 2020-08-16 22:37:33 EST
+2020-08-16 22:37:51.925 EST [85736] LOG:  database system is ready to accept connections
+2020-08-16 22:50:23.723 EST [86488] ERROR:  syntax error at or near "CLEAR" at character 11
+2020-08-16 22:50:23.723 EST [86488] STATEMENT:  SELECT * 
+	CLEAR
+	clear
+	SELECT * FROM users
+	select* 
+	select * from public.users
+	select * from public."users"
+	select * from users;
